@@ -1,0 +1,73 @@
+Book - Python Crash course
+Hello World Typos:
+    1) indentation issue
+    2) invalid syntax
+    3) it will catch the first error that is there in the line as its interpreter.
+
+infinite Skills: If you had infinite programming skills, what would you build?
+    1) chatbot
+    2) email un-subscriber
+    3) web application/website
+
+
+string -
+    concat
+    strip
+    rstrip
+    lstrip
+    len
+
+number -
+    int
+       operation like + - * /
+       2+2 = 4
+       2**3 = 8
+       (2+2)*3 will perform 4* 3 = 12 as operator precedence
+
+    float
+
+we can not use number is string in the print message directly. so need to tell the interpreter to treat the number as
+string by wrapping it in the bracket.
+
+
+Zen of python -
+    Beautiful is better than ugly.
+    Explicit is better than implicit.
+    Simple is better than complex.
+    Complex is better than complicated.
+    Flat is better than nested.
+    Sparse is better than dense.
+    Readability counts.
+    Special cases aren't special enough to break the rules.
+    Although practicality beats purity.
+    Errors should never pass silently.
+    Unless explicitly silenced.
+    In the face of ambiguity, refuse the temptation to guess.
+    There should be one-- and preferably only one --obvious way to do it.
+    Although that way may not be obvious at first unless you're Dutch.
+    Now is better than never.
+    Although never is often better than *right* now.
+    If the implementation is hard to explain, it's a bad idea.
+    If the implementation is easy to explain, it may be a good idea.
+    Namespaces are one honking great idea -- let's do more of those!
+
+List -
+    A list is a collection of items in a particular order
+    In Python, square brackets ([]) indicate a list, and individual elements
+    in the list are separated by commas.
+
+    bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+    print(bicycles)
+
+    Lists are ordered collections, so you can access any element in a list by
+    telling Python the position, or index, of the item desired.
+
+    Python considers the first item in a list to be at position 0, not position 1
+    Python has a special syntax for accessing the last element in a list. By asking for the item at index -1,
+    Python always returns the last item in the list.
+
+    to changes the item in the list you can use the index
+    for example : bicycles[0]="Honda" will replace valye of trek to Honda.
+
+    to add the item in the list you can use append
+    to insert element at specific position use insert() method.
